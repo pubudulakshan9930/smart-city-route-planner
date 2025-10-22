@@ -66,12 +66,12 @@ public class Graph {
         return locations;
     }
 
-    // Temporary test main - remove before final submission
+    // Temporary test main 
     public static void main(String[] args) {
         Graph g = new Graph();
         g.addLocation("A");
         g.addLocation("B");
         g.addRoad("A", "B");
-        g.displayConnections(); // Should print: A connected to: B / B connected to: A
+        g.displayConnections(); 
     }
 }
